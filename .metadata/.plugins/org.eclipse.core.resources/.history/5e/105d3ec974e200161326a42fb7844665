@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package nameConstant1;
+
+/**
+ * @author tv111790
+ *
+ */
+public class NameConstant1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		
+		int first_number;
+		int second_number;
+		int third_number;
+		int answer;
+		first_number = 124;
+		second_number = 322;
+		third_number = 2;
+		
+		answer = first_number - second_number + third_number;
+		
+		System.out.println("Total = " + answer);
+
+	}
+
+}

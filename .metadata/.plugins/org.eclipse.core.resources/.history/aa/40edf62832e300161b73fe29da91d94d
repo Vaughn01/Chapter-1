@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package intergerDemo;
+
+/**
+ * @author TV111790
+ *
+ */
+public class IntergerDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		
+		int anInt = 13;
+		byte aByte = 14;
+		short aShort = 27;
+		long aLong = 54;
+		
+		System.out.println("The int is " + anInt);
+		System.out.println("The byte is " + aByte);
+		System.out.println("The short is " + aShort);
+		System.out.println("The long is " + aLong);
+
+	}
+
+}
