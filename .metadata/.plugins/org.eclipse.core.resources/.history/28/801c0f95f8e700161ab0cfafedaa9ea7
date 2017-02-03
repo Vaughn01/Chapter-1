@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package chapter2Exercises;
+
+import java.util.Scanner; 
+
+public class QuartsToGallonsInteractive {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		int quartsInGallon = 4;
+		int quartsNeeded;
+		int gallonShow;
+		int quartShow;
+		
+		Scanner Input = new Scanner(System.in);
+		
+		System.out.print("How many quarts are required for the job?");
+		quartsNeeded = Input.nextInt();
+		
+		gallonShow = quartsNeeded / quartsInGallon;
+		quartShow = quartsNeeded % quartsInGallon;
+		
+		System.out.println("You need " + gallonShow + " gallons, and you will have a remainder of " + quartShow + "quarts left");
+		
+	}
+
+}

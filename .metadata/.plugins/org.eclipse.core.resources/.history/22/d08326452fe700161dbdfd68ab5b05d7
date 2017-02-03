@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package chapter2Exercises;
+
+
+public class QuartsToGallons {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}
