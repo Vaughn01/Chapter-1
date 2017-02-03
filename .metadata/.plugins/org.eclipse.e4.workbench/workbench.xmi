@@ -9,6 +9,7 @@
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1484942802328"/>
     <tags>topLevel</tags>
+    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_1-QUIuTTEeagOM6pYByPpQ" selectedElement="_1-QUI-TTEeagOM6pYByPpQ" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_1-QUI-TTEeagOM6pYByPpQ" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_1-QUJOTTEeagOM6pYByPpQ">
         <children xsi:type="advanced:Perspective" xmi:id="_1-QUJOTTEeagOM6pYByPpQ" elementId="org.eclipse.jdt.ui.JavaPerspective" selectedElement="_1-QUJeTTEeagOM6pYByPpQ" label="Java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/jperspective.gif">
@@ -589,7 +590,7 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_HiihoOfyEeaG-PlkkdLtfA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MadLibsDragon.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MadLibsDragon.java&quot; partName=&quot;MadLibsDragon.java&quot; title=&quot;MadLibsDragon.java&quot; tooltip=&quot;Mad Libs/src/madLibs/MadLibsDragon.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Mad Libs/src/madLibs/MadLibsDragon.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1059&quot; selectionTopPixel=&quot;131&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MadLibsDragon.java&quot; partName=&quot;MadLibsDragon.java&quot; title=&quot;MadLibsDragon.java&quot; tooltip=&quot;Mad Libs/src/madLibs/MadLibsDragon.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Mad Libs/src/madLibs/MadLibsDragon.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1059&quot; selectionTopPixel=&quot;101&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -894,7 +895,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1-QWPuTTEeagOM6pYByPpQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_ImK_V-pXEea_yeDdKEk0nA" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_1-Qdq-TTEeagOM6pYByPpQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_R2-cV-pXEeaii8fINl0RGw" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_1-Qdq-TTEeagOM6pYByPpQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1-QWS-TTEeagOM6pYByPpQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -921,7 +922,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1-QWgOTTEeagOM6pYByPpQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_ImK_YepXEea_yeDdKEk0nA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_1-QdIeTTEeagOM6pYByPpQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_R2-cYepXEeaii8fINl0RGw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_1-QdIeTTEeagOM6pYByPpQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1-QWi-TTEeagOM6pYByPpQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
