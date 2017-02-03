@@ -33,9 +33,9 @@ public class MadLibsDragon {
 		
 		wholeNumber = JOptionPane.showInputDialog(null, "Give me anumber that is a whole number, that means NO DECIMALS!!! ");
 		
-		JOptionPane.showMessageDialog(null, "The " + color + " dragon is the " + wordEst + 
+		JOptionPane.showMessageDialog(null, "The " + color + " dragon is the" + wordEst + 
 		" animal of the whole world. It has " + c +  bodyPartPlural + "s and a " + animal + " shaped like a " + noun + 
-		" It loves to eat " + pluralNoun + " although he/she will feast nearly anything and anyone.");
+		" It loves to eat " + pluralNoun + "although he/she will feast nearly anything and anyone.");
 		
 		// TODO Auto-generated method stub
 
