@@ -3,7 +3,7 @@
  */
 package arithmeticDemo;
 
-import javax.util.scanner;
+import java.util.Scanner;
 
 public class ArithmeticDemo {
 

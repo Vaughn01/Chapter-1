@@ -1,0 +1,127 @@
+/**
+ * 
+ */
+package delgadosTacos;
+
+import java.util.Scanner;
+/**
+ * @author TV111790
+ *
+ */
+public class DelgadoTacos {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		tacoTruck();
+		//menu();
+		orderingMenu();
+	}
+	
+	public static void orderingMenu()
+	{
+		{
+			String Burrito, Taco, Enchilada, Churro, Fajitas, Lemonade, Chimichango, Water, Soda;
+			
+			double BurritoPrice = 2.39;
+			double TacoPrice = 1.49;
+			double EnchiladaPrice = 2.99;
+			double ChurroPrice = 1.99;
+			double FajitasPrice = 2.99;
+			double LemonadePrice = 0.99;
+			double ChimichangoPrice = 4.09;
+			double WaterPrice = 0.00;
+			double SodaPrice = 0.99;
+			double TaquitoPrice = 1.49;
+			double totalPrice;
+			double burritoOrdered;
+			double taquitoOrdered;
+			double tacoOrdered;
+			double enchiladaOrdered;
+			double churroOrdered;
+			double fajitasOrdered;
+			double lemonadeOrdered;
+			double chimichangoOrdered;
+			double watersOrdered;
+			double sodaOrdered;
+			double TotalPriceWithTaxes = (totalPrice + 1.075);
+			
+			Scanner inputDevice = new Scanner(System.in); 
+			
+			System.out.println("How many burritos would you like?");
+			burritoOrdered= inputDevice.nextDouble();
+			inputDevice.nextLine();
+			
+			System.out.println("How many tacos would you like?");
+			burritoOrdered= inputDevice.nextDouble();
+			inputDevice.nextLine();
+			
+			System.out.println("How many enchiladas would you like?");
+			burritoOrdered= inputDevice.nextDouble();
+			inputDevice.nextLine();
+			
+			System.out.println("How many churros would you like?");
+			burritoOrdered= inputDevice.nextDouble();
+			inputDevice.nextLine();
+			
+			System.out.println("How many fajitas would you like?");
+			burritoOrdered= inputDevice.nextDouble();
+			inputDevice.nextLine();
+			
+			System.out.println("How many lemonades would you like?");
+			burritoOrdered= inputDevice.nextDouble();
+			inputDevice.nextLine();
+			
+			System.out.println("How many chimichango would you like?");
+			burritoOrdered= inputDevice.nextDouble();
+			inputDevice.nextLine();
+			
+			System.out.println("How many water would you like?");
+			burritoOrdered= inputDevice.nextDouble();
+			inputDevice.nextLine();
+			
+			System.out.println("How many soda would you like?");
+			burritoOrdered= inputDevice.nextDouble();
+			inputDevice.nextLine();
+			
+			System.out.println("How many taquitos would you like?");
+			burritoOrdered= inputDevice.nextDouble();
+			inputDevice.nextLine();
+			
+			totalPrice = (BurritoPrice * burritoOrdered) + (TacoPrice * tacoOrdered) + (EnchiladaPrice * enchiladaOrdered) 
+					   + (ChurroPrice * churroOrdered) + (FajitasPrice * fajitasOrdered) + (LemonadePrice * lemonadeOrdered) 
+					   + (ChimichangoPrice * chimichangoOrdered) + (WaterPrice * watersOrdered) + (SodaPrice * sodaOrdered) 
+					   + (TaquitoPrice * taquitoOrdered);
+			
+			System.out.println("According to what you ordered, you have ordered " + tacoOrdered + " tacos for " +  TacoPrice + ", " 
+			        + burritoOrdered + " burritos for " +  BurritoPrice + ", " + enchiladaOrdered + " enchiladas for " +  EnchiladaPrice + ", " 
+					+ churroOrdered + " churros for " +  ChurroPrice + ", " + fajitasOrdered + " fajitas for " +  FajitasPrice + ", "
+					+ lemonadeOrdered + " lemonade for " +  LemonadePrice + ", "+ chimichangoOrdered + " chimichangos for " +  ChimichangoPrice + ", "
+					+ watersOrdered + " waters for " +  WaterPrice + ", "+ taquitoOrdered + " taquito for "+TaquitoPrice + ". That gives you a total of $" + totalPrice + "With tax it is a grand total of $" + TotalPriceWithTaxes);
+		
+			
+			
+	}
+		
+public static void tacoTruck()
+{
+	System.out.println("            Hello World!!!!!");
+	System.out.println("***********************************");
+	System.out.println("*       Tatyana's                 *");
+	System.out.println("*       Taco Shop                 *");
+	System.out.println("*       **********************    *");
+	System.out.println("*       *       ooooo        *    *");
+	System.out.println("*       *       o   o        *    *******************");
+	System.out.println("*       *       ooooo        *                       *");
+	System.out.println("*       *         o          *             *******    *");
+	System.out.println("*       **********************             *     *     *");
+	System.out.println("*                                          *    **    *");
+	System.out.println("*   oooooo                          ooooo  *     *  *");
+	System.out.println("****o    o*************************o    o************");
+	System.out.println("    o    o                         o    o            ");
+	System.out.println("    oooooo                         oooooo            ");
+}
+
+}
