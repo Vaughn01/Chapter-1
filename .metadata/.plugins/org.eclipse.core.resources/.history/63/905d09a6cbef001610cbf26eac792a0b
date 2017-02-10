@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package youDoIt;
+
+/**
+ * @author TV111790
+ *
+ */
+public class MythicalPay {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		
+		
+
+	}
+
+}
