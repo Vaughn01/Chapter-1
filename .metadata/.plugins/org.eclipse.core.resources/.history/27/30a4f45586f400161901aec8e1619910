@@ -1,0 +1,156 @@
+/**
+ * 
+ */
+package delgadosTacos;
+
+import java.util.Scanner;
+
+/**
+ * @author TV111790
+ *
+ */
+public class DelgadosChoice {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		{
+			tacoTruck();
+			menu();
+			orderingMenu();
+		}
+		
+		public static void orderingMenu()
+		/* This is where in the program I decided to make sure the program knew the price and amount of each item. 
+		 * I had to come up with 10 different items and make the prices of each.*/
+			{
+				String Burrito, Taco, Enchilada, Churro, Fajitas, Lemonade, Chimichango, Water, Soda;
+				
+				double BurritoPrice = 2.39;
+				double TacoPrice = 1.49;
+				double EnchiladaPrice = 2.99;
+				double ChurroPrice = 1.99;
+				double FajitasPrice = 2.99;
+				double LemonadePrice = 0.49;
+				double ChimichangoPrice = 3.09;
+				double WaterPrice = 0.00;
+				double SodaPrice = 0.99;
+				double TaquitoPrice = 1.49;
+				double totalPrice;
+				double burritoOrdered;
+				double taquitoOrdered;
+				double tacoOrdered;
+				double enchiladaOrdered;
+				double churroOrdered;
+				double fajitasOrdered;
+				double lemonadeOrdered;
+				double chimichangoOrdered;
+				double watersOrdered;
+				double sodaOrdered;
+				/* This is where in the program the user tells the program how many of each they would like. */
+				
+				Scanner inputDevice = new Scanner(System.in); 
+				
+				System.out.println("How many burritos would you like?");
+				burritoOrdered= inputDevice.nextDouble();
+				inputDevice.nextLine();
+				
+				System.out.println("How many tacos would you like?");
+				tacoOrdered= inputDevice.nextDouble();
+				inputDevice.nextLine();
+				
+				System.out.println("How many enchiladas would you like?");
+				enchiladaOrdered= inputDevice.nextDouble();
+				inputDevice.nextLine();
+				
+				System.out.println("How many churros would you like?");
+				taquitoOrdered= inputDevice.nextDouble();
+				inputDevice.nextLine();
+				
+				System.out.println("How many fajitas would you like?");
+				churroOrdered= inputDevice.nextDouble();
+				inputDevice.nextLine();
+				
+				System.out.println("How many lemonades would you like?");
+				fajitasOrdered= inputDevice.nextDouble();
+				inputDevice.nextLine();
+				
+				System.out.println("How many chimichango would you like?");
+				lemonadeOrdered= inputDevice.nextDouble();
+				inputDevice.nextLine();
+				
+				System.out.println("How many water would you like?");
+				chimichangoOrdered= inputDevice.nextDouble();
+				inputDevice.nextLine();
+				
+				System.out.println("How many soda would you like?");
+				watersOrdered= inputDevice.nextDouble();
+				inputDevice.nextLine();
+				
+				System.out.println("How many taquitos would you like?");
+				sodaOrdered= inputDevice.nextDouble();
+				inputDevice.nextLine();
+				/* This is where in the program the amount owed is calculated with the total prices.*/
+				totalPrice = (BurritoPrice * burritoOrdered) + (TacoPrice * tacoOrdered) + (EnchiladaPrice * enchiladaOrdered) 
+						   + (ChurroPrice * churroOrdered) + (FajitasPrice * fajitasOrdered) + (LemonadePrice * lemonadeOrdered) 
+						   + (ChimichangoPrice * chimichangoOrdered) + (WaterPrice * watersOrdered) + (SodaPrice * sodaOrdered) 
+						   + (TaquitoPrice * taquitoOrdered);
+				double TotalPriceWithTaxes = (totalPrice + 1.075);
+				System.out.println("According to what you ordered, you have ordered " + tacoOrdered + " tacos for " +  TacoPrice 
+						+ ", " + burritoOrdered + " burritos for " +  BurritoPrice + ", " + enchiladaOrdered + " enchiladas for " 
+						+  EnchiladaPrice + ", "	+ churroOrdered + " \r1"
+								+ "churros for " +  ChurroPrice + ", " + fajitasOrdered 
+						+ " fajitas for " +  FajitasPrice + ", "+ lemonadeOrdered + " lemonade for " +  LemonadePrice + ", "
+						+ chimichangoOrdered + " chimichangos for " +  ChimichangoPrice + ", "	+ watersOrdered + " waters for " 
+						+  WaterPrice + ", " 	+ taquitoOrdered + " taquito for " +TaquitoPrice + ".\r1"
+								+ " That gives you a total of $" 
+						+ totalPrice	+ ". With tax it is a grand total of $" + TotalPriceWithTaxes);
+			
+				
+				
+		}
+			
+	public static void tacoTruck()
+	/* This is my taco truck drawing. Isn't it pretty? */
+	{
+		System.out.println("            Hello World!!!!!");
+		System.out.println("***********************************");
+		System.out.println("*       Taty's Taco Truck         *");
+		System.out.println("*                                 *");
+		System.out.println("*       **********************    *");
+		System.out.println("*       *       ooooo        *    *");
+		System.out.println("*       *       o   o        *    *******************");
+		System.out.println("*       *       ooooo        *                       *");
+		System.out.println("*       *         o          *             *******    *");
+		System.out.println("*       **********************             *     *     *");
+		System.out.println("*                                          *    **    *");
+		System.out.println("*   oooooo                          ooooo  *     *  *");
+		System.out.println("****o    o*************************o    o************");
+		System.out.println("    o    o                         o    o            ");
+		System.out.println("    oooooo                         oooooo            ");
+	}
+
+	public static void menu()
+	/* This is the menu for my taco truck. Do you think this is too expensive? */
+	{
+		System.out.println("***********************************");
+		System.out.println("*                                 *");
+		System.out.println("*           Food Menu             *");
+		System.out.println("*        Taco Price = 1.49;       *");
+		System.out.println("*       Burrito Price = 2.39      *");
+		System.out.println("*       Churro Price = 1.99       *");
+		System.out.println("*      Fajitas Price = 2.99       *");
+		System.out.println("*      Lemonade Price = 0.49      *");
+		System.out.println("*     Chimichango Price = 3.09    *");
+		System.out.println("*      Water Price = 0.00         *");
+		System.out.println("*      Soda Price = 0.99          *");
+		System.out.println("*      Taquito Price = 1.49       *");
+		System.out.println("*     Enchilada Price = 2.99      *");
+		System.out.println("*                                 *");
+		System.out.println("***********************************");
+
+		
+	}
+	}

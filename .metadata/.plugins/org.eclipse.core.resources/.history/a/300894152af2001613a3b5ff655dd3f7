@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+package switches1;
+
+/**
+ * @author TV111790
+ *
+ */
+public class StudentScannerSwitch {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		if (year == 1)
+			System.out.println("Freshman");
+		else
+			if(year == 2)
+				System.out.println()"(Sophmore)"
+		switch(year)
+		{
+		case 1:
+		System.out.println("Freshman");
+		case 2:
+			System.out.println("Sophomore");
+		case 3:
+			System.out.println("Junior");
+		case 4:
+			System.out.println("Senior");
+			
+		}
+
+	}
+
+}

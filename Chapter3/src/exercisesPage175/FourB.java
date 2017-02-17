@@ -52,18 +52,18 @@ public class FourB {
 	{
 		System.out.println("We will help you with your math homework.");
 		System.out.println("We will make you look smart.");
-		computePercentageInfo(0, 0);
+		
 	}
 	public static void displayNumberPlusFive()
 	{
 		System.out.println("We will help you with your math homework.");
 		System.out.println("We will make you look smart.");
-		computePercentageInfo(0, 0);
+		
 	}
 	public static void displayNumberSquared()
 	{
 		System.out.println("We will help you with your math homework.");
 		System.out.println("We will make you look smart.");
-		computePercentageInfo(0, 0);
+		
 	}
 }

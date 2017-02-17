@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package gameZone;
+
+import java.util.Random;
+/**
+ * @author TV111790
+ *
+ */
+public class RockPaperScissors {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		
+		int user;
+		int computer;
+		String message;
+		String userPick;
+		String computerPick; 
+
+	}
+
+}
