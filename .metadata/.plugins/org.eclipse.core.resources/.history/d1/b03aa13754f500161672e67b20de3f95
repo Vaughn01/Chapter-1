@@ -1,15 +1,14 @@
 /**
  * 
  */
-package programmingExercises;
+package pizzaChoice;
 
 import java.util.Scanner;
-
 /**
  * @author TV111790
  *
  */
-public class CondoSales2 {
+public class PizzaChoice {
 
 	/**
 	 * @param args
@@ -17,43 +16,31 @@ public class CondoSales2 {
 	public static void main(String[] args) 
 	{
 		
-		
 		String choiceYes;
+		String size;
+		String pizzaKind;
+		double smallCost = 3.29;
 		
-		String view;
+		double mediumCost = 4.29;
 		
-		double garage = 5000;
+		double largeCost = 4.79;
 		
-		double ParkView = 150000;
-		
-		double GolfCourseView = 170000;
-		
-		double LakeView = 210000;
-		
-		double invalid = 0; 
-		
-		int orderNumber;
+		double extraLargeCost = 5.99; 
 		
 		Scanner input = new Scanner (System.in);
 		
-		Scanner inputDevice = new Scanner(System.in);
-		System.out.println("Hello welcome to Condo Sales!");
-		System.out.println("Would you like the golf course view, park view, or lake view for your condominium?");
-		System.out.println("Please select the number from each item.\n Press 1 for park view. \n Press 2 for the golf course view. \n Press 3 the lake view.");
-		orderNumber = inputDevice.nextInt();
-		
-		System.out.print("Would you like to buy a condominium? Yes or No");
+		System.out.print("Would you like a pizza? Yes or No   ");
 		choiceYes = input.nextLine();
 		
 		if ("Yes".equals(choiceYes) || "yes".equals(choiceYes) || "y".equals(choiceYes) || "Y".equals(choiceYes))
 				{
-				System.out.print("You have said " + choiceYes + " to buying a condo. Fantastic!!!");
-				System.out.print("Which view would you like? ");
-				orderNumber = input.nextInt();
+				System.out.print("You have said " + choiceYes + " to having a pizza");
+				System.out.print("What size would you like? Small, medium, large, or extra large ");
+				size = input.nextLine();
 				
-				if("small".equals(view) || "medium".equals(view) || "large".equals(view) || "extra large".equals(view))
+				if("small".equals(size) || "medium".equals(size) || "large".equals(size) || "extra large".equals(size))
 					{
-					System.out.print("You have said " + view + ". ");
+					System.out.print("You have said " + size + ". ");
 					System.out.print("What kind of pizza would you like? Pepperoni, Sausage, Cheese, Veggie, Meat Lovers");
 					pizzaKind = input.nextLine();
 		
@@ -82,7 +69,7 @@ public class CondoSales2 {
 				}
 		else 
 		{
-			System.out.println("Have a nice day!");
+			System.out.println("If you would not like to order pizza, have a nice day!");
 		}
 		
 		
