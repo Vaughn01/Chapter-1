@@ -56,7 +56,7 @@ public class DelgadosChoice {
 				int enchiladaNum = 10;
 				int churroNum = 3;
 				int fajitasNum = 4;
-				 int lemonadeNum = 5;
+				int lemonadeNum = 5;
 				int chimichangoNum = 6;
 				int waterNum = 7;
 				int sodaNum = 8;
