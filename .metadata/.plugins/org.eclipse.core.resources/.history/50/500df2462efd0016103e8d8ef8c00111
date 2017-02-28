@@ -1,0 +1,53 @@
+/**
+ * 
+ */
+package gameZone;
+
+
+
+import javax.swing.JOptionPane;
+
+/**
+ * @author TV111790
+ *
+ */
+public class RandomGuess3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		
+		final int LOW = 1;
+		final int HIGH = 6;
+		String message = null;
+		int result;
+		int guess = 0;
+		int counter = 0;
+		
+		
+		
+		result = LOW + (int)(Math.random()* HIGH);
+ 		while(guess != result){ 	
+ 			guess = Integer.parseInt(JOptionPane.showInputDialog(null, "Try to guess the number I am thinking of between" + LOW + " and " + HIGH));
+			if(guess == result) 
+			{
+			message = "\nCongratulations, you got the right number!";
+			}
+			else if (result <guess)
+			{
+			message = "\n Your guess was too low";		
+			}
+			else
+			{
+			message = "\n Your guess was too high";
+			}
+			++counter;
+			JOptionPane.showMessageDialog(null, message + "in this many attempts " + counter);
+ 		}
+		JOptionPane.showMessageDialog(null, "The number is " + result + message + "in this many attempts " + counter);
+
+	}
+
+}
