@@ -1,0 +1,62 @@
+/**
+ * 
+ */
+package rightTriangle;
+import java.util.Scanner;
+import java.lang.Math;
+
+/**
+ * @author TV111790
+ *
+ */
+public class RightTriangle 
+{
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		double A;
+		double B;
+		double C;
+		String userEntry;
+		double CalculateA;
+		double CalculateB;
+		double CalculateC;
+		
+		Scanner input = new Scanner(System.in);
+		System.out.print("We are helpful. \n We will help you with math!!!");
+		System.out.print("Which side would you like to solve for in your right triangle?");
+		System.out.print(" Type 1 for Side A \n 2 for Side B, n3 for Side C");
+		userEntry = input.nextLine(); 
+		
+		while(userEntry.equals"A" || userEntry = "a")
+		{
+			
+		}
+
+	}
+	public static void aSide(double A, double B, double C, double CalculateA)
+	{
+		
+		
+
+	}
+
+	public static void bSide(double A, double B, double C, double CalculateB) 
+	{
+		
+		 
+
+	}
+
+	public static void cSide(double A, double B, double C, double CalculateC)
+	{
+		
+		
+
+	}
+
+
+}
